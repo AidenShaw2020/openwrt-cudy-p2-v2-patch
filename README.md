@@ -18,9 +18,10 @@ This patch is based on work from:
 ## Apply
 ```sh
 git clone https://git.openwrt.org/openwrt/openwrt.git openwrt-p2-v2
+git clone https://github.com/AidenShaw2020/openwrt-cudy-p2-v2-patch.git openwrt-cudy-p2-v2-patch
 cd openwrt-p2-v2
 git checkout v25.12.5
-git am /path/to/patches/cudy-p2-openwrt-25.12.5.patch
+git am ../openwrt-cudy-p2-v2-patch/patches/cudy-p2-openwrt-25.12.5.patch
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make defconfig
