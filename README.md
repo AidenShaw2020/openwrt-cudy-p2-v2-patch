@@ -16,9 +16,6 @@ This patch is based on work from:
 - https://github.com/openwrt/openwrt/pull/23721
 
 ## Apply
-
-From a clean OpenWrt 25.12.5 tree:
-
 ```sh
 git clone https://git.openwrt.org/openwrt/openwrt.git openwrt-p2-v2
 cd openwrt-p2-v2
