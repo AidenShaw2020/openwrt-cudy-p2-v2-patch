@@ -29,4 +29,5 @@ make menuconfig
   Target System: (MediaTek ARM)
   Subtarget: (Filogic 8x0 (MT798x))
   Target Profile: (Cudy P2 v2)
+  (Optional add Luci, etc....)
 make -j$(nproc) V=s
