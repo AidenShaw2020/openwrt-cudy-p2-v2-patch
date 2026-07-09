@@ -24,9 +24,6 @@ git checkout v25.12.5
 git am ../openwrt-cudy-p2-v2-patch/patches/cudy-p2-openwrt-25.12.5.patch
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+cp configs/cudy_p2_v2.seed .config
 make defconfig
-make menuconfig
-  Target System: (MediaTek ARM)
-  Subtarget: (Filogic 8x0 (MT798x))
-  Target Profile: (Cudy P2 v2)
 make -j$(nproc) V=s
